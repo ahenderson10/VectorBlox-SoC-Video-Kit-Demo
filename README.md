@@ -3,7 +3,7 @@
 
 # PolarFire&reg; SoC Video Kit VectorBlox 3.1.1 Demo
 
-This repository can be used to generate a VectorBlox demo using the [PolarFire&reg; SoC Video Kit](https://www.microchip.com/en-us/development-tool/MPFS250-VIDEO-KIT). A Libero SoC Tcl script is provided to generate the design using Libero SoC along with device-specific I/O constraints.
+This repository generates a VectorBlox demo using the [PolarFire&reg; SoC Video Kit](https://www.microchip.com/en-us/development-tool/MPFS250-VIDEO-KIT). A Libero SoC Tcl script generates the design using Libero SoC and includes device-specific I/O constraints.
 
 This repository supports Libero SoC v2025.2, which is available for download [here](https://www.microsemi.com/product-directory/design-resources/1750-libero-soc#downloads).
 
@@ -19,7 +19,7 @@ This repository supports Libero SoC v2025.2, which is available for download [he
 
 ## QuickStart Setup Guide
 
-The Quickstart Setup Guide is recommended for most users. Use the Building with Libero Setup Guide only if you need to make custom modifications to the Libero project.
+The QuickStart Setup Guide is recommended for most users. Use the Building with Libero Setup Guide only if you need to make custom modifications to the Libero project.
 
 To run the demo on the PolarFire SoC Video Kit without building, using the pre-built job files provide, **please refer to the [Quickstart Setup Guide](docs/Quickstart.md).**
 
@@ -29,7 +29,7 @@ For instructions on building the project with a Tcl script in Libero SoC v2025.1
 
 ## Controlling the VectorBlox Demo
 
-A list of models that the demo runs can be found in the [demo_models.h](https://github.com/Microchip-Vectorblox/VectorBlox-SDK/blob/master/example/soc-video-c/demo_models.h) file. The demo models header file is located in the `examples/soc-video-c` directory of the VectorBlox SDK and is transferred to the board when running the quickstart shell script.
+The [demo_models.h](https://github.com/Microchip-Vectorblox/VectorBlox-SDK/blob/master/example/soc-video-c/demo_models.h) file lists the models the demo runs. The demo models header file is located in the `examples/soc-video-c` directory of the VectorBlox SDK and is transferred to the board when running the quickstart shell script.
 
 Refer to [adding_models.md](docs/adding_models.md) for instructions on adding models generated from the SDK.
 
@@ -74,4 +74,4 @@ All other trademarks are the property of their respective owners.
 
 Copyright (c) 2023-2026 Microchip Technology Inc. All rights reserved.
 
-For detalied license information, see [LICENSE.md](LICENSE.md).
+For detailed license information, see [LICENSE.md](LICENSE.md).
